@@ -17,6 +17,7 @@ print(df.collect())
 states1=df.rdd.map(lambda x: x[3]).collect()
 print(states1)
 
+#The .map() transformation is applied to the RDD. It takes a lambda function as an argument,which specifies the transformation to be applied to each element of the RDD.
 
 
 
